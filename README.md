@@ -38,7 +38,7 @@ main.jsbundle
 
 ## Usage
 
-`python3 mobile_helper_framework.py app.apk|ipa|aab`
+`python3 mhf.py app.apk|ipa|aab`
 
 ### Examples
 
