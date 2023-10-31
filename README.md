@@ -155,3 +155,7 @@ For example, in Flutter if the application is a Split it's necessary patch split
 
 - This work is licensed under a Creative Commons Attribution 4.0 International License.
 
+## Autors
+
+[Cesar Calderon](https://twitter.com/__stux)
+[Marco Almaguer](https://websec.mx/)
