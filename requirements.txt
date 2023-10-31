@@ -1,0 +1,5 @@
+reflutter==0.7.2
+jsbeautifier
+pyyaml
+colorama
+python-magic
