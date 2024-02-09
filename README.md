@@ -34,6 +34,8 @@ main.jsbundle
 
 ## Installation
 
+❗A minimum of Java 8 is required to run Apktool. 
+
 `pip install -r requirements.txt`
 
 ## Usage
