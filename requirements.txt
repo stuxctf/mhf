@@ -4,3 +4,6 @@ pyyaml
 colorama
 python-magic-bin==0.4.14
 lxml
+apkid
+androguard==3.4.0a1
+lz4

@@ -131,6 +131,16 @@ For example, in Flutter if the application is a Split it's necessary patch split
 
 ## Changelog
 
+### 0.6 (Dojoconfpa Release)
+
+- Bug fixes
+- Get App information
+- APKiD integration for identify (compilers, packers, obfuscators) - (experimental)
+- Possible identification of protections (root, sslpinning, Emulator, Hooking) - BETA
+- Extract dangerous permissions - (experimental)
+- Extract deeplinks information - (experimental)
+- Extract browseable components - (experimental)
+
 ### 0.5
 
 - Public release

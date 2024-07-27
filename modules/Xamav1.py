@@ -3,8 +3,13 @@ import re
 import subprocess
 import plistlib
 from lxml import etree
-from .Extract import extract_apk, extract_ipa
 from lib.Colors import RED, CYAN, YELLOW, WHITE, RESET
+from .Extract import extract_apk, extract_ipa
+from .Permissions import display_dangerous_permissions
+from .Deep import display_deep_links
+from .Exported import display_exported_components
+from .Protections import get_protections
+from .Security import get_security
 
 ipatmp = ""
 androtmp = ""
