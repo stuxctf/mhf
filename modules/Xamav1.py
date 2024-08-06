@@ -93,8 +93,13 @@ def xama_andorid():
                 print(f"{YELLOW}\n[!] To reverse engineer the DLL files, use external tools: {RESET}")
                 print("\tWindows: ILSpy -> https://github.com/icsharpcode/ILSpy/releases")
                 print("\tWindows: Dotpeek -> https://www.jetbrains.com/es-es/decompiler/")
-                print("\tLinux/MAC: Use ILSpy extension for VSCODE -> https://github.com/icsharpcode/ILSpy/releases")
-            
+                print("\tLinux/MAC: Use ILSpy extension for VSCODE -> https://github.com/icsharpcode/ILSpy/releases\n")
+
+                display_deep_links()
+                display_dangerous_permissions()
+                display_exported_components()
+
+                
                 dll_files = []
                 xalz_files = []
             
