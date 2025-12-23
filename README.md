@@ -131,6 +131,11 @@ For example, in Flutter if the application is a Split it's necessary patch split
 
 ## Changelog
 
+### 0.7 (Christmas Release)
+
+- Improved Flutter detection with deeper Dart analysis.
+- Support for the new .dll compression used in .NET MAUI 9 for Android applications
+
 ### 0.6 (Dojoconfpa Release)
 
 - Bug fixes
