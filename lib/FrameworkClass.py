@@ -9,7 +9,8 @@ class FrameWork:
     NATIVESCRIPT = "NativeScript"
     NATIVE = "Native (Java/Kotlin)"
     NATIVE_IOS = "Native (Objective-C/Swift)"
-    XAMARIN_BLOB = "Xamarin " 
+    XAMARIN_BLOB = "Xamarin "
+    XAMARIN_BLOB_SO =  "Xamarin  "
 
 
 class Technology:
@@ -65,6 +66,16 @@ tech_list = [
         directories=[
             "assemblies.blob",
             "assemblies.manifest",
+        ]
+    ),
+    Technology(
+        framework=FrameWork.XAMARIN_BLOB_SO,
+        directories=[
+            "libassemblie1s.arm64-v8a.blob.so",
+            "libassemblies.armeabi-v7a.blob.so",
+            "libassemblies.x86.blob.so",
+            "libassemblies.x86_64.blob.so",
+            "libxamarin-app.so",
         ]
     ),
     Technology(

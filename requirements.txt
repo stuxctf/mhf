@@ -7,3 +7,4 @@ lxml
 apkid
 androguard==3.4.0a1
 lz4
+pyelftools==0.32

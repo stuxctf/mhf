@@ -12,6 +12,7 @@ from modules.Cordova import cordova_android, cordova_ios
 from modules.Flutter import patch_apk
 from modules.Xamav1 import xama_andorid, xama_ios
 from modules.Xamav2 import xama_blob
+from modules.Xamav3 import xama_blob_so
 from modules.Information import get_information
 from modules.Protections import get_protections
 from modules.Security import get_security
@@ -40,10 +41,10 @@ def main():
                             zipObject.close()
                             print(f"{GREEN}\n[+] App was written in {tech.framework} {RESET}")
                             if tech.framework in [FrameWork.REACT_NATIVE]:
-                                get_information()
+                                #get_information()
                                 react_android() 
-                                get_security()
-                                get_protections() 
+                                #get_security()
+                                #get_protections() 
                             if tech.framework in [FrameWork.REACT_NATIVE_IOS]:
                                 react_ios()
                             if tech.framework in [FrameWork.NATIVESCRIPT]:
@@ -60,6 +61,8 @@ def main():
                                     cordova_ios()
                             if tech.framework in [FrameWork.XAMARIN_BLOB]:
                                 xama_blob()
+                            if tech.framework in [FrameWork.XAMARIN_BLOB_SO]:
+                                xama_blob_so()
                             if tech.framework in [FrameWork.XAMARIN]:
                                 get_information()
                                 xama_andorid()
@@ -70,7 +73,6 @@ def main():
                             return
                         else:
                             continue
-            # if no framework is found, return Native
             zipObject.close()
             if args.app_name.endswith('.apk'):
                 print(f"{GREEN}[+] App was written in {FrameWork.NATIVE} {RESET}")
